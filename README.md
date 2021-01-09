@@ -12,6 +12,15 @@
 
 
 # Initialize project using Create React App
+## install node.js
+- node.js(14.15.4 LTS)
+    - node -v: v14.15.4
+    - npm -v: 6.14.10
+    - npx -v: 6.14.10
+ 
+- facebook/create-react-app
+
+- npx create-react-app movie_app
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
