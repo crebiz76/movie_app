@@ -25,6 +25,19 @@
 ## PropTypes 유효성 검사(Validator)
 - 설치방법: npm i prop-types
 - 이용방법: 실제 propTypes의 사용과 무관하게 Warning 또는 Error 메시지는 없음
+
+## Component Life Cycle
+- Mounting
+    - constructor()
+    - render()
+    - componentDidMount()
+
+- Updating
+    - render()
+    - componentDidUpdate()
+
+- Unmounting
+    - componentWillUnmount()
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
