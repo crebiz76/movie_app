@@ -7,9 +7,15 @@ class App extends React.Component{
   
   plus = () => {
     console.log("add");
+    // this.state.count += 1; // Not working
+    // this.setState({ count: this.state.count + 1 }) // Not recommended
+    this.setState(current => ({count: current.count + 1}));
   };
   minus = () => {
     console.log("substract");
+    // this.state.count -= 1; // Not working
+    // this.setState({ count: this.state.count - 1 }) // Not recommended
+    this.setState(current => ({count: current.count - 1}));
   };
 
   render(){
