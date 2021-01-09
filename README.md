@@ -1,3 +1,17 @@
+# Movie App
+## React Javascript Fundamentals Course(from Nomad Coders)
+
+
+
+
+
+
+
+
+
+
+
+# Initialize project using Create React App
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
