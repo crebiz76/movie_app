@@ -14,16 +14,25 @@
 # Initialize project using Create React App
 ## install node.js
 - node.js(14.15.4 LTS)
-    - node -v: v14.15.4
-    - npm -v: 6.14.10
-    - npx -v: 6.14.10
- 
+    ```bash
+        $ node -v
+        v14.15.4
+        $ npm -v
+        6.14.10
+        $ npx -v
+        6.14.10
+    ```
 - facebook/create-react-app
 
-- npx create-react-app movie_app
-
+- npx create-react-app my-app
+    ```bash
+    $ npx create-react-app movie_app
+    ```
 ## PropTypes 유효성 검사(Validator)
-- 설치방법: npm i prop-types
+- Installation
+    ```bash
+        npm i prop-types
+    ```
 - 이용방법: 실제 propTypes의 사용과 무관하게 Warning 또는 Error 메시지는 없음
 
 ## Component Life Cycle
@@ -38,6 +47,10 @@
 
 - Unmounting
     - componentWillUnmount()
+
+## fetch vs. axios
+- Installation: npm install axios
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
