@@ -6,14 +6,22 @@ class App extends React.Component{
     movies: []
   };
   
+  // componentDidMount(){
+  //   setTimeout(() => { this.setState({ isLoading:false }); }, 5000);
+  // };
+  
+  loadState = () => {
+    this.setState({ isLoading: false });
+  };
+
   componentDidMount(){
-    setTimeout(() => { this.setState({ isLoading:false }); }, 5000);
+    setTimeout(this.loadState, 5000);
   };
 
   render(){
     const { isLoading } = this.state;
     return <div>{ isLoading ? "Loading...":"We are ready" }</div>
-  }  
+  };
 }
 
 export default App;
