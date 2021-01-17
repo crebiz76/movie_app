@@ -76,6 +76,9 @@
 - routers
     - Home.css, Home.js & About.js
 
+## router
+- 폴더 구조의 URL를 확인하여 해당 js 파일을 불러온다. 
+- 
 
 
 # Getting Started with Create React App
