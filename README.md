@@ -1,16 +1,5 @@
 # Movie App
 ## React Javascript Fundamentals Course(from Nomad Coders)
-
-
-
-
-
-
-
-
-
-
-
 # Initialize project using Create React App
 ## install node.js
 - node.js(14.15.4 LTS)
@@ -50,6 +39,31 @@
 
 ## fetch vs. axios
 - Installation: npm install axios
+
+## Install gh-pages
+- Installation
+    ```bash
+    npm i gh-pages
+    ```
+- gh-pages는 웹사이트를 github page 도메인에 표시
+- package.json 수정
+    - "homepage" 추가
+        - "homepage": "https://crebiz76.github.io/movie_app/"
+- Build
+    - build 폴더 생성
+        ```bash
+        npm run build
+        ```
+- package.json 수정
+    - "deploy": "gh-pages -d build" 추가
+        - deploy는 build 폴더를 업로드(여기서 build는 폴더명)
+    - "predeploy": "npm run build" 추가
+        - predeploy는 build 폴더를 만들기 위해 빌드를 수행
+        - 수행순서: predeploy > build > deploy
+- Deployment
+    ```bash
+    npm run deploy
+    ```
 
 # Getting Started with Create React App
 
