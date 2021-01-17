@@ -65,6 +65,19 @@
     npm run deploy
     ```
 
+## react-router-dom
+- Installation
+    ```bash
+    npm install react-router-dom
+    ```
+- components
+    - Movie.css, Movie.js
+
+- routers
+    - Home.css, Home.js & About.js
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
